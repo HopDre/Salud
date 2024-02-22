@@ -21,12 +21,12 @@ const Principal = () => {
       content: 'Te ofrecemos un servicio de calidad y a un costo que esté a tu alcance, nuestro enfoque principal está en tu bienestar',
     },
     {
-      image: require('../assets/principal/slider1.png'), // Reemplaza con la ruta de tu segunda imagen
-      content: 'Te ofrecemos un servicio de calidad y a un costo que esté a tu alcance, nuestro enfoque principal está en tu bienestar',
+      image: require('../assets/principal/medicina.png'), // Reemplaza con la ruta de tu segunda imagen
+      content: 'Nuestros especialistas están completamente certificados para brindarte el apoyo de calidad que tu necesitas',
     },
     {
-      image: require('../assets/principal/slider1.png'), // Reemplaza con la ruta de tu tercera imagen
-      content: 'Te ofrecemos un servicio de calidad y a un costo que esté a tu alcance, nuestro enfoque principal está en tu bienestar',
+      image: require('../assets/principal/tiempo.png'), // Reemplaza con la ruta de tu tercera imagen
+      content: 'Nuestros servicios son de rápida respuesta, tu solicitas y nosotros respondemos',
     },
   ];
 
@@ -41,7 +41,7 @@ const Principal = () => {
       } else {
         swiperRef.current.scrollBy(-currentIndex);
       }
-    }, 3000);
+    }, 4000);
 
     return () => {
       clearInterval(autoPlay);
@@ -125,25 +125,25 @@ const Principal = () => {
           style={styles.menuItem}
           onPress={() => navigation.navigate("Principal")}
         >
-          <Icon name="ios-home" size={30} color="#0074BD" />
+          <Icon name="home" size={30} color="#0074BD" />
         </TouchableOpacity>
         <TouchableOpacity
           style={styles.menuItem}
           onPress={() => navigation.navigate("Perfil")}
         >
-          <Icon name="ios-person" size={30} color="#4BAADD" />
+          <Icon name="person" size={30} color="#4BAADD" />
         </TouchableOpacity>
         <TouchableOpacity
           style={styles.menuItem}
           onPress={() => navigation.navigate("Servicio")}
         >
-          <Icon name="ios-medkit" size={30} color="#4BAADD" />
+          <Icon name="medkit" size={30} color="#4BAADD" />
         </TouchableOpacity>
         <TouchableOpacity
           style={styles.menuItem}
           onPress={() => navigation.navigate("Personal")}
         >
-          <Icon name="ios-reader" size={30} color="#4BAADD" />
+          <Icon name="reader" size={30} color="#4BAADD" />
         </TouchableOpacity>
       </View>
     </View>
@@ -235,6 +235,7 @@ const styles = StyleSheet.create({
     height: 150, // Ajusta la altura de la imagen según tus necesidades
     resizeMode: 'contain',
     marginBottom: 10,
+    marginHorizontal:8
   },
   slideContentContainer: {
     alignItems: 'center',

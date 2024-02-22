@@ -8,6 +8,22 @@ import {
   TouchableOpacity,
 } from "react-native";
 import { useNavigation } from "@react-navigation/native";
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyCYzmbM5OE0q8hqQG8d7GKUXN-fMCEHizM",
+  authDomain: "salud-ya-db1dd.firebaseapp.com",
+  projectId: "salud-ya-db1dd",
+  storageBucket: "salud-ya-db1dd.appspot.com",
+  messagingSenderId: "982197979591",
+  appId: "1:982197979591:web:a0eaaa6ff614e77f7271e2",
+  measurementId: "G-HXW7WDCF11"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
 
 const LoginScreen = () => {
   const [text, setText] = useState("");

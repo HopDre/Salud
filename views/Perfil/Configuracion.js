@@ -37,43 +37,43 @@ const Configuracion = () => {
           style={styles.menuItem}
           onPress={() => navigation.navigate("Principal")}
         >
-          <Icon name="ios-home" size={30} color="#4BAADD" />
+          <Icon name="home" size={30} color="#4BAADD" />
         </TouchableOpacity>
         <TouchableOpacity
           style={styles.menuItem}
           onPress={() => navigation.navigate("Perfil")}
         >
-          <Icon name="ios-person" size={30} color="#0074BD" />
+          <Icon name="person" size={30} color="#0074BD" />
         </TouchableOpacity>
         <TouchableOpacity
           style={styles.menuItem}
           onPress={() => navigation.navigate("Servicio")}
         >
-          <Icon name="ios-medkit" size={30} color="#4BAADD" />
+          <Icon name="medkit" size={30} color="#4BAADD" />
         </TouchableOpacity>
         <TouchableOpacity
           style={styles.menuItem}
           onPress={() => navigation.navigate("Personal")}
         >
-          <Icon name="ios-reader" size={30} color="#4BAADD" />
+          <Icon name="reader" size={30} color="#4BAADD" />
         </TouchableOpacity>
       </View>
 
       <ScrollView style={styles.scrollViewContainer}>
       <View style={styles.formulario}>
       <TouchableOpacity onPress={toggleDarkMode} style={styles.button}>
-      <Icon name={darkMode ? 'ios-moon' : 'ios-sunny'} color="#fff" size={25} />
+      <Icon name={darkMode ? 'moon' : 'sunny'} color="#fff" size={25} />
       <Text style={styles.buttonText}>{darkMode ? 'Modo Claro' : 'Modo Oscuro'}</Text>
     </TouchableOpacity>
         <TouchableOpacity onPress={() => navigation.navigate("Perfil")}>
           <View style={styles.button}>
-          <Icon name="ios-log-out" size={25} color="white" />
+          <Icon name="log-out" size={25} color="white" />
             <Text style={styles.buttonText}>Cerrar Sesión</Text>
           </View>
         </TouchableOpacity>
         <TouchableOpacity onPress={() => navigation.navigate("Perfil")}>
           <View style={styles.eliminar}>
-          <Icon name="ios-trash" size={25} color="white" />
+          <Icon name="trash" size={25} color="white" />
             <Text style={styles.buttonText}>Eliminar mi cuenta</Text>
           </View>
         </TouchableOpacity>

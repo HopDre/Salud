@@ -21,25 +21,25 @@ const EditarPerfil = () => {
           style={styles.menuItem}
           onPress={() => navigation.navigate("Principal")}
         >
-          <Icon name="ios-home" size={30} color="#4BAADD" />
+          <Icon name="home" size={30} color="#4BAADD" />
         </TouchableOpacity>
         <TouchableOpacity
           style={styles.menuItem}
           onPress={() => navigation.navigate("Perfil")}
         >
-          <Icon name="ios-person" size={30} color="#0074BD" />
+          <Icon name="person" size={30} color="#0074BD" />
         </TouchableOpacity>
         <TouchableOpacity
           style={styles.menuItem}
           onPress={() => navigation.navigate("Servicio")}
         >
-          <Icon name="ios-medkit" size={30} color="#4BAADD" />
+          <Icon name="medkit" size={30} color="#4BAADD" />
         </TouchableOpacity>
         <TouchableOpacity
           style={styles.menuItem}
           onPress={() => navigation.navigate("Personal")}
         >
-          <Icon name="ios-reader" size={30} color="#4BAADD" />
+          <Icon name="reader" size={30} color="#4BAADD" />
         </TouchableOpacity>
       </View>
 
@@ -51,19 +51,19 @@ const EditarPerfil = () => {
           <View style={styles.botones}>
             <TouchableOpacity onPress={() => navigation.navigate("PersonalInfo")}>
               <View style={styles.btnIcon}>
-              <Icon name="ios-person-circle" size={40} color="#4BAADD" width={40} />
+              <Icon name="person-circle" size={40} color="#4BAADD" width={40} />
                 <Text style={styles.buttonText}>Información personal</Text>
               </View>
             </TouchableOpacity>
             <TouchableOpacity onPress={() => navigation.navigate("MedicalInfo")}>
               <View style={styles.btnIcon}>
-              <Icon name="ios-medkit" size={35} color="#4BAADD" width={40} />
+              <Icon name="medkit" size={35} color="#4BAADD" width={40} />
                 <Text style={styles.buttonText}>Información médica</Text>
               </View>
             </TouchableOpacity>
             <TouchableOpacity onPress={() => navigation.navigate("Seguridad")}>
               <View style={styles.btnIcon}>
-              <Icon name="ios-lock-closed" size={35} color="#4BAADD" width={40} />
+              <Icon name="lock-closed" size={35} color="#4BAADD" width={40} />
                 <Text style={styles.buttonText}>Seguridad</Text>
               </View>
             </TouchableOpacity>

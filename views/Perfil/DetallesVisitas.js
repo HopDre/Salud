@@ -26,25 +26,25 @@ const DetallesVisitas = () => {
           style={styles.menuItem}
           onPress={() => navigation.navigate("Principal")}
         >
-          <Icon name="ios-home" size={30} color="#4BAADD" />
+          <Icon name="home" size={30} color="#4BAADD" />
         </TouchableOpacity>
         <TouchableOpacity
           style={styles.menuItem}
           onPress={() => navigation.navigate("Perfil")}
         >
-          <Icon name="ios-person" size={30} color="#0074BD" />
+          <Icon name="person" size={30} color="#0074BD" />
         </TouchableOpacity>
         <TouchableOpacity
           style={styles.menuItem}
           onPress={() => navigation.navigate("Servicio")}
         >
-          <Icon name="ios-medkit" size={30} color="#4BAADD" />
+          <Icon name="medkit" size={30} color="#4BAADD" />
         </TouchableOpacity>
         <TouchableOpacity
           style={styles.menuItem}
           onPress={() => navigation.navigate("Personal")}
         >
-          <Icon name="ios-reader" size={30} color="#4BAADD" />
+          <Icon name="reader" size={30} color="#4BAADD" />
         </TouchableOpacity>
       </View>
       <ScrollView>
@@ -53,15 +53,15 @@ const DetallesVisitas = () => {
         <Image style={styles.fotoDr} source={require("../../assets/doctora.jpg") }></Image>
       </View>
       <View style={styles.contenedorInfo}>
-        <Icon name="ios-cash-outline" size={30} color="#4BAADD" style={styles.icono}></Icon>
+        <Icon name="cash-outline" size={30} color="#4BAADD" style={styles.icono}></Icon>
         <Text style={styles.texto}>$20.000</Text>
       </View>
       <View style={styles.contenedorInfo}>
-        <Icon name="ios-location-outline" size={30} color="#4BAADD" style={styles.icono}></Icon>
+        <Icon name="location-outline" size={30} color="#4BAADD" style={styles.icono}></Icon>
         <Text style={styles.texto}>Av. Arturo Prat 3412, Santiago</Text>
       </View>
       <View style={styles.contenedorInfo}>
-        <Icon name="ios-star-outline" size={30} color="#4BAADD" style={styles.icono}></Icon>
+        <Icon name="star-outline" size={30} color="#4BAADD" style={styles.icono}></Icon>
         <Text style={styles.texto}>Valoración</Text>
       </View>
       <View style={styles.contenedorAyuda}>
@@ -73,7 +73,7 @@ const DetallesVisitas = () => {
           <View style={styles.textContainer}>
             <Text style={styles.text1}>Certificado asociado a la consulta</Text>
           </View>
-          <Icon name="ios-chevron-forward" size={25} color="white" style={styles.icono}></Icon>
+          <Icon name="chevron-forward" size={25} color="white" style={styles.icono}></Icon>
         </View>
       </TouchableOpacity>
       <TouchableOpacity onPress={handleContainerPress}>
@@ -81,7 +81,7 @@ const DetallesVisitas = () => {
           <View style={styles.textContainer}>
             <Text style={styles.text1}>Informar un problema</Text>
           </View>
-          <Icon name="ios-chevron-forward" size={25} color="white" style={styles.icono}></Icon>
+          <Icon name="chevron-forward" size={25} color="white" style={styles.icono}></Icon>
         </View>
       </TouchableOpacity>
       <TouchableOpacity onPress={handleContainerPress}>
@@ -89,7 +89,7 @@ const DetallesVisitas = () => {
           <View style={styles.textContainer}>
             <Text style={styles.text1}>Comentarios sobre la consulta</Text>
           </View>
-          <Icon name="ios-chevron-forward" size={25} color="white" style={styles.icono}></Icon>
+          <Icon name="chevron-forward" size={25} color="white" style={styles.icono}></Icon>
         </View>
       </TouchableOpacity>
       </ScrollView>

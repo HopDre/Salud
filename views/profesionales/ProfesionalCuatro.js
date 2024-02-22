@@ -21,25 +21,25 @@ const ProfesionalCuatro = () => {
           style={styles.menuItem}
           onPress={() => navigation.navigate("Principal")}
         >
-          <Icon name="ios-home" size={30} color="#4BAADD" />
+          <Icon name="home" size={30} color="#4BAADD" />
         </TouchableOpacity>
         <TouchableOpacity
           style={styles.menuItem}
           onPress={() => navigation.navigate("Perfil")}
         >
-          <Icon name="ios-person" size={30} color="#4BAADD" />
+          <Icon name="person" size={30} color="#4BAADD" />
         </TouchableOpacity>
         <TouchableOpacity
           style={styles.menuItem}
           onPress={() => navigation.navigate("Servicio")}
         >
-          <Icon name="ios-medkit" size={30} color="#4BAADD" />
+          <Icon name="medkit" size={30} color="#4BAADD" />
         </TouchableOpacity>
         <TouchableOpacity
           style={styles.menuItem}
           onPress={() => navigation.navigate("Personal")}
         >
-          <Icon name="ios-reader" size={30} color="#0074BD" />
+          <Icon name="reader" size={30} color="#0074BD" />
         </TouchableOpacity>
       </View>
       <ScrollView style={styles.contenedorScroll}>
@@ -63,7 +63,7 @@ const ProfesionalCuatro = () => {
           </View>
           <View style={styles.subcontenedor}>
             <Icon
-              name="ios-shield-checkmark"
+              name="shield-checkmark"
               size={40}
               color="white"
               marginBottom={10}
@@ -74,35 +74,35 @@ const ProfesionalCuatro = () => {
         </View>
         <View style={styles.estrellas}>
           <Icon
-            name="ios-star"
+            name="star"
             size={40}
             color="#0074BD"
             marginBottom={10}
             marginTop={5}
           />
           <Icon
-            name="ios-star"
+            name="star"
             size={40}
             color="#0074BD"
             marginBottom={10}
             marginTop={5}
           />
           <Icon
-            name="ios-star"
+            name="star"
             size={40}
             color="#0074BD"
             marginBottom={10}
             marginTop={5}
           />
           <Icon
-            name="ios-star"
+            name="star"
             size={40}
             color="#0074BD"
             marginBottom={10}
             marginTop={5}
           />
           <Icon
-            name="ios-star"
+            name="star"
             size={40}
             color="#0074BD"
             marginBottom={10}
@@ -114,7 +114,7 @@ const ProfesionalCuatro = () => {
         </Text>
         <TouchableOpacity onPress={() => navigation.navigate("Personal")}>
           <View style={styles.btn}>
-            <Icon name="ios-warning" size={40} color="black"></Icon>
+            <Icon name="warning" size={40} color="black"></Icon>
             <Text style={styles.buttonText}>Reportar este perfil</Text>
           </View>
         </TouchableOpacity>

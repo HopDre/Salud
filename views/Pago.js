@@ -24,25 +24,25 @@ const Pago = () => {
           style={styles.menuItem}
           onPress={() => navigation.navigate("Principal")}
         >
-          <Icon name="ios-home" size={30} color="#4BAADD" />
+          <Icon name="home" size={30} color="#4BAADD" />
         </TouchableOpacity>
         <TouchableOpacity
           style={styles.menuItem}
           onPress={() => navigation.navigate("Perfil")}
         >
-          <Icon name="ios-person" size={30} color="#4BAADD" />
+          <Icon name="person" size={30} color="#4BAADD" />
         </TouchableOpacity>
         <TouchableOpacity
           style={styles.menuItem}
           onPress={() => navigation.navigate("Servicio")}
         >
-          <Icon name="ios-medkit" size={30} color="#0074BD" />
+          <Icon name="medkit" size={30} color="#0074BD" />
         </TouchableOpacity>
         <TouchableOpacity
           style={styles.menuItem}
           onPress={() => navigation.navigate("Personal")}
         >
-          <Icon name="ios-reader" size={30} color="#4BAADD" />
+          <Icon name="reader" size={30} color="#4BAADD" />
         </TouchableOpacity>
       </View>
       <Text style={styles.titulo}>Seleccione su método de pago</Text>
