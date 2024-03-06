@@ -30,6 +30,10 @@ import ProfesionalUno from "./views/profesionales/ProfesionalUno";
 import ProfesionalDos from "./views/profesionales/ProfesionalDos";
 import ProfesionalTres from "./views/profesionales/ProfesionalTres";
 import ProfesionalCuatro from "./views/profesionales/ProfesionalCuatro";
+import Medicina from "./views/Especialidades/Medicina";
+import Enfermeria from "./views/Especialidades/Enfermeria";
+import Kinesiologia from "./views/Especialidades/Kinesiologia";
+import Nutricionista from "./views/Especialidades/Nutricionista";
 
 
 const App = () => {
@@ -64,6 +68,10 @@ const App = () => {
         <Stack.Screen name="ProfesionalDos" component={ProfesionalDos} />
         <Stack.Screen name="ProfesionalTres" component={ProfesionalTres} />
         <Stack.Screen name="ProfesionalCuatro" component={ProfesionalCuatro} />
+        <Stack.Screen name="Medicina" component={Medicina} />
+        <Stack.Screen name="Enfermeria" component={Enfermeria} />
+        <Stack.Screen name="Kinesiologia" component={Kinesiologia} />
+        <Stack.Screen name="Nutricionista" component={Nutricionista} />
       </Stack.Navigator>
     </NavigationContainer>
   )
