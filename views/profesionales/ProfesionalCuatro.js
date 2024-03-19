@@ -112,7 +112,7 @@ const ProfesionalCuatro = () => {
         <Text style={styles.calificacion}>
           Calificación promedio del profesional
         </Text>
-        <TouchableOpacity onPress={() => navigation.navigate("Personal")}>
+        <TouchableOpacity onPress={() => navigation.navigate("Reporte")}>
           <View style={styles.btn}>
             <Icon name="warning" size={40} color="black"></Icon>
             <Text style={styles.buttonText}>Reportar este perfil</Text>

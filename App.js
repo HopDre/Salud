@@ -34,6 +34,7 @@ import Medicina from "./views/Especialidades/Medicina";
 import Enfermeria from "./views/Especialidades/Enfermeria";
 import Kinesiologia from "./views/Especialidades/Kinesiologia";
 import Nutricionista from "./views/Especialidades/Nutricionista";
+import Reporte from "./views/Reporte";
 
 
 const App = () => {
@@ -72,6 +73,7 @@ const App = () => {
         <Stack.Screen name="Enfermeria" component={Enfermeria} />
         <Stack.Screen name="Kinesiologia" component={Kinesiologia} />
         <Stack.Screen name="Nutricionista" component={Nutricionista} />
+        <Stack.Screen name="Reporte" component={Reporte} />
       </Stack.Navigator>
     </NavigationContainer>
   )
